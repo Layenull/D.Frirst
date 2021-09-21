@@ -1,0 +1,432 @@
+hmtl,
+* {
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 380px;
+}
+h1 {
+  font-family: "Fraunces", serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+label {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  font-family: "Barlow", sans-serif;
+}
+
+/*------Nav-Bar------*/
+
+header {
+  position: absolute;
+  width: 100%;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px 40px;
+}
+
+header .logo-brand img {
+  width: 70px;
+}
+
+header .nav-links {
+  width: 40%;
+}
+
+header .nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header .nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+.nav-links ul li a {
+  transition: all 0.3 ease 0s;
+}
+
+.nav-links ul li a:hover {
+  color: orange;
+}
+
+/*----Nav-Bar End-----*/
+
+/* ----- Hero-Section --------- */
+
+.hero-section {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/images/image-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+}
+
+.hero-section .caption {
+  align-items: center;
+}
+
+.hero-section .caption img {
+  height: 150px;
+  /* padding-top: 85px; */
+  padding-bottom: 300px;
+  padding-left: 48%;
+  padding-right: 52%;
+}
+.hero-section .caption h1 {
+  padding-top: 150px;
+  /* padding-bottom: 150px; */
+  font-size: 70px;
+  color: white;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+/*-------Hero-Section End------*/
+
+/*----About-Us----*/
+.about-section {
+  display: flex;
+}
+
+.about-section .transform {
+  width: 50%;
+  padding-top: 200px;
+  justify-content: center;
+}
+
+.about-section .transform h1 {
+  font-size: 50px;
+  /* margin: 15px; */
+  width: 30vw;
+  padding-left: 120px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  /* text-align: justify; */
+}
+.about-section .transform p {
+  font-size: 18px;
+  /* margin: 15px; */
+  width: 30vw;
+  padding-left: 130px;
+  padding-bottom: 20px;
+  color: darkgray;
+  /* text-align: justify; */
+  font-weight: 500;
+  line-height: 1.5;
+}
+.about-section .transform a {
+  font-size: 18px;
+  /* margin: 20px; */
+  width: 30px;
+  padding-left: 130px;
+  padding-top: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 5px;
+  /* text-align: justify; */
+  text-transform: capitalize;
+  color: black;
+  font-family: "Fraunces", serif;
+}
+
+.about-section .pic {
+  width: 50%;
+}
+
+.about-section .pic img {
+  width: 100%;
+  height: 100%;
+}
+/*---About-Us End---*/
+
+/* stand-out */
+.stand-out {
+  display: flex;
+  justify-content: center;
+}
+
+.stand-out .caption {
+  width: 50%;
+  padding-top: 200px;
+  justify-content: center;
+}
+
+.stand-out .caption h1 {
+  font-size: 40px;
+  /* margin: 15px; */
+  width: 30vw;
+  padding-left: 120px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  /* text-align: justify; */
+}
+.stand-out .caption p {
+  font-size: 18px;
+  padding-bottom: 20px;
+  /* margin: 15px; */
+  width: 30vw;
+  padding-left: 130px;
+  padding-top: 20px;
+  color: darkgray;
+  /* text-align: justify; */
+  font-weight: 500;
+  line-height: 1.5;
+}
+.stand-out .caption a {
+  font-size: 18px;
+  /* margin: 20px; */
+  width: 30px;
+  padding-left: 130px;
+  padding-top: 20px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: palevioletred;
+  text-decoration-thickness: 5px;
+  /* text-align: justify; */
+  text-transform: capitalize;
+  font-family: "Fraunces", serif;
+  color: black;
+}
+
+.stand-out .stand {
+  width: 50%;
+}
+
+.stand-out .stand img {
+  width: 100%;
+  height: 100%;
+}
+/* stand-out End */
+
+/*---Photography-Design---*/
+.photography {
+  display: flex;
+}
+.photography .cherry-caption {
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../assets/images/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.photography .cherry-caption .caption-container,
+.photography .orange-caption .caption-container {
+  padding-top: 50%;
+  /* text-align: center; */
+}
+
+.cherry-caption .caption-container h1 {
+  font-size: 30px;
+  padding-bottom: 40px;
+  width: 30vw;
+  padding-left: 130px;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(31, 102, 76);
+}
+
+.cherry-caption .caption-container p {
+  line-height: 1.5;
+  width: 30vw;
+  padding-bottom: 40px;
+  padding-left: 130px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(31, 102, 76);
+}
+
+.orange-caption {
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../assets/images/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.orange-caption .caption-container h1 {
+  font-size: 30px;
+  padding-bottom: 40px;
+  width: 30vw;
+  padding-left: 130px;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(25, 25, 112);
+  padding-top: 20px;
+}
+
+.orange-caption .caption-container p {
+  line-height: 1.5;
+  font-size: 20px;
+  width: 30vw;
+  padding-left: 150px;
+  text-align: center;
+  color: rgb(25, 25, 112);
+  padding-bottom: 70px;
+  /* padding-top: 20px; */
+}
+
+/* photography-Design end */
+
+/* --------Testimony-------- */
+.title .testimonials {
+  display: flex;
+  justify-content: center;
+}
+
+.title .testimonials h2 {
+  align-items: center;
+  padding-top: 100px;
+  text-transform: uppercase;
+  color: darkgray;
+}
+
+.testimony {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.testimony .clients h1 {
+  font-size: 18px;
+  padding: 100px, 0;
+}
+
+.testimony .clients h2 {
+  font-size: 12px;
+  color: darkgray;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+
+.testimony .clients {
+  width: 25%;
+  text-align: center;
+}
+
+.testimony .clients img {
+  width: 60px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  border-radius: 50%;
+}
+
+.testimony .clients p {
+  color: darkgray;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* --------Testimony End-------- */
+
+/*---Images---*/
+
+.images-sweet {
+  display: flex;
+  /* width */
+  width: 100%;
+  height: 60vh;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.images .images-sweet .box {
+  /* flex: 1; */
+  width: 25vw;
+}
+
+.images .images-sweet .box img {
+  /* flex: 1; */
+  width: 100%;
+}
+/* Images-end */
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  padding: 20px 40px;
+  background-color: rgb(114, 194, 165);
+}
+
+.footer .sunny-logo {
+  padding-top: 50px;
+  padding-left: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer .nav-links {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer .nav-links ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  padding-left: 600px;
+  list-style: none;
+}
+
+.footer .nav-links ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer .social-contact {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-contact ul {
+  width: 30vw;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer .social-contact ul li {
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  cursor: pointer;
+}
